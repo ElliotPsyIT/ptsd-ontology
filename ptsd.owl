@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#is_a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#is_a"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#used_to_treat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#used_to_treat"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Anger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Anger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Anxious -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Anxious">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Avoiding_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Avoiding_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Benzodiazepine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Benzodiazepine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Medication_management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Buspirone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Buspirone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Medication_management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Citalopram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Citalopram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Selective_Serotonin_Reuptake_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Cognitive_behavioral_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Cognitive_behavioral_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Therapy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Coping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Coping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Resiliency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Depression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Depression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Dream -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Dream">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Re-experiencing_trauma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Flashback -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Flashback">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Re-experiencing_trauma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Fluvoxamine_maleate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Fluvoxamine_maleate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Selective_Serotonin_Reuptake_Inhibitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Functioning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Functioning"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Guilt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Guilt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Hypervigilance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Hypervigilance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Increased_arousal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Increased_arousal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Increased_arousal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Isolate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Isolate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Avoiding_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Medication_management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Medication_management"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Nightmare -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Nightmare">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Re-experiencing_trauma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Person_centered_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Person_centered_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Therapy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Psychotherapeutic_modalities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Psychotherapeutic_modalities"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Re-experiencing_trauma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Re-experiencing_trauma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Recovery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Recovery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Functioning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Resiliency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Resiliency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Functioning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Selective_Serotonin_Reuptake_Inhibitor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Selective_Serotonin_Reuptake_Inhibitor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Medication_management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Shame -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Shame">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Suicidality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Suicidality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Functioning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Symptom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Symptom"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Symptom_change -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Symptom_change"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Symptom_negation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Symptom_negation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Technique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Technique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Psychotherapeutic_modalities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Temazepam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Temazepam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Benzodiazepine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Psychotherapeutic_modalities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Trazodone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Trazodone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Medication_management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Treatment_audience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Treatment_audience"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Treatment_change -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Treatment_change"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Treatment_non_compliance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Treatment_non_compliance"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Treatment_providers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Treatment_providers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#adaptation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#adaptation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Coping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#couple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#couple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Treatment_audience"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#empathy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#empathy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Technique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#family -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#family">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Treatment_audience"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#group">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Treatment_audience"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#individual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#individual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Treatment_audience"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#rapport_building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#rapport_building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Technique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#support -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#support">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2012/7/PTSD_zirkle.owl#Technique"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.5.1912) http://owlapi.sourceforge.net -->
+
